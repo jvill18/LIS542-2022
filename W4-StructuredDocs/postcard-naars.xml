@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="postcard">
+    <summary> 
+        <image_text>
+            <title>Holloway Hall Bell Tower</title>
+            <association>Salisbury State College</association>
+            <location when="city,state">Salisbury, Maryland</location>
+            <description n="7"> <!--Do I need n= number here for a description? I wanted to ensure that the sentence structure was as is on the postcard in terms of exact words per sentence line but not sure if I represented this correctly-->
+                <l n="1">The center section of Holloway Hall at Salisbury State</l>
+                <l n="2">College, including the noble bell tower atop which one can</l>
+                <l n="3">scan the historical city of Salisbury in its entirety, was</l>
+                <l n="4">completed in 1929. Students and townspeople alike are</l>
+                <l n="5">enriched by lyrical sounds emanating from the tower’s</l>
+                <l n="6">Carillon of Bells, presented to the College by the Alumni</l>
+                <l n="7">Association on November 5, 1973.</l></description>
+        </image_text>
+    </summary>
+    <message>
+        <date when="XXXX-08-05">Aug. 5</date> <!--If only part of the date is provided, can I still add a <date when=""</date> or is this not correct?-->
+        <salutation>Dear Cousins!</salutation>
+        <correspondence n= "10">
+            <l n="1">Pleasant having your</l>
+            <l n="2">company. Next time make</l>
+            <l n="3">it longer so that we</l>
+            <l n="4">can all go out and explore</l>
+            <l n="5">the peninsula together.</l>
+            <l n="6">Thanks for all the goodies!</l>
+            <l n="7">Am sure you managed</l>
+            <l n="8">to show yourselves a good</l>
+            <l n="9">time in Baltimore. Cooled</l>
+            <l n="10">off a bite (degree or 2).</l>
+        </correspondence>
+        <valediction>Be well and love,</valediction>
+        <author_name>Dorothy-Murray</author_name>
+    </message>
+    <cardbreak>
+        <citation>Pub. By H.K. Barnett. Allison Park, Pa 15101</citation> 
+        <author_return_address when="street address, city, state, zip code">419 Valleywood Dr Salisbury, MD 21007</author_return_address>                              
+        <postmark_stamp when="city,state,1991-02-18">Salisbury MD 21891</postmark_stamp><!--place & date that the item was delivered. Not sure how to include date when= here within the postmark-->
+        </cardbreak>
+    <delivery_text> 
+        <postage n="2" type="stamp">
+            <stamp n="1">Margaret Mitchell USA 1</stamp>
+            <stamp n="2">Julia Ward Howe 14 USA</stamp>
+        </postage>
+        <recipient>
+            <name type="person"><title>Mr-Mrs.</title><forname>Perry</forname><surname>Morgan</surname></name> 
+            <address when="street address, city, state, zip code">653 Fairview Ave.,Westbury, NY., 11590</address>
+        </recipient>
+    </delivery_text>
+</div>

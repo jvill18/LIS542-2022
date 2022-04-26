@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entry>
+    
+<Header><Title>Peanuts</Title> by <Author>Charles Schulz.</Author> <Date when="1957-05-11">May 11, 1957</Date ></Header>
+
+<Body>
+    
+ <Frame>
+<Title>Peanuts</Title>
+<SpeechBubble>PEOPLE COME AND PEOPLE GO, BUT THE EARTH KEEPS ON SPINNING..</SpeechBubble>
+</Frame>
+
+<Frame>
+<SpeechBubble>"SPINNING" WHAT DO YOU MEAN "SPINNING"?</SpeechBubble>
+<SpeechBubble>SPINNING THROUGH SPACE...THE EARTH KEEPS ON SPINNING THROUGH SPACE</SpeechBubble>
+</Frame>
+
+<Frame>
+HAHAHAHAHA!!!
+<SpeechBubble>?</SpeechBubble>
+</Frame>
+
+<Frame>
+ <SpeechBubble>OH, MY, CHARLIE BROWN! YOU MAY NOT BE THE <Bold>BRIGHTEST </Bold>PERSON IN THE WORLD, BUT YOU SURE HAVE SOME <Bold>IMAGINATION</Bold>!</SpeechBubble>
+<SpeechBubble>good grief!</SpeechBubble>
+<Date>5-11</Date>
+<Creator>SCHULZ</Creator>
+</Frame>
+
+</Body>
+
+<Footer><Hyperlink>https://www.gocomics.com/peanuts/1957/05/11</Hyperlink></Footer>
+
+</Entry>

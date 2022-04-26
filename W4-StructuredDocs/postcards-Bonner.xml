@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Postcards>
+<postcard n="1">
+    <front></front>
+    <back>
+        <location subject="sender">
+            <street>419 Valleywood Dr</street> 
+            <city>Salisbury</city>, <state abbr="MD">MD</state> <zip>21801</zip>
+        </location>
+        <stamp> Margharet Mitchell USA 
+            <price value="1" currency="USD">1</price>
+        </stamp>
+        <stamp><price value="14" currency="USD">14</price> 
+            USA Julia Ward Howe
+        </stamp>
+        <printedNote type="descr">
+            <location subject="ref">
+                <place>Holloway Hall Bell Tower</place>
+                <place>Salisbury State College</place>
+                <city>Salisbury</city>, <state abbr="MD">Maryland</state>.
+            </location> 
+            The center section of Halloway Hall at Salisbury State 
+            College, including the noble bell tower atop which one can 
+            scan the historical city of Salisbury in its entirety, was 
+            completed in 1929. Students and townspeople alike are 
+            enriched by lyrical sounds emanating from the tower's 
+            Carillon of Bells, presented to the college by the Alumni 
+            Association on November 5, 1973.
+        </printedNote>
+        <postmark>
+            <location subject="post">
+                <city>SALISBURY</city> <state abbr="MD">MD</state> <zip>21801</zip>
+            </location> 
+            <timestamp>
+                <time>[illegible]</time>
+                <date>[illegible]</date>
+            </timestamp>
+        </postmark>
+        <message>
+            <date month="August" day="5">Aug. 5</date>
+            <opener>Dear <name subject="recipient">Cousins:</name></opener>
+            <body>
+                Pleasant having your company. Next time make it longer so that we 
+                can all get out and explore the peninsula together. 
+                Thanks for all the goodies. 
+                Am sure you managed to show yourselves a good time in 
+                <location subject="ref"><city>Baltimore</city><state abbr="MD"></state>
+                </location>, cooled off a mite (degree or 2).
+            </body>
+            <closer>
+                Be well,- and Love, <name subject="sender"> Dorothy-Murray </name>
+            </closer>
+        </message>
+        <printedNote type="publ">Pub by H. K. Barnett, Allison Park, Pa. 15101</printedNote>
+        <printedNote>post card</printedNote>
+        <address>
+            <name subject="recipient">Mr-Mrs. Perry Morgan</name>
+            <location subject="recipient">
+                <street>653 Fairview Av.</street> 
+                <city>Westbury</city>, <state abbr="NY">N.Y.</state> 
+                <zip>11590</zip>
+            </location>
+        </address>    
+    </back>
+</postcard>
+    
+<postcard n="2">
+    <front>
+        <printedNote type="descr">
+            ALONG THE WATER FRONT. 
+            <location subject="ref"><city>MATUNUCK</city>, <state abbr="RI">R. I.</state></location>
+        </printedNote>
+    </front>
+    <back>
+        <printedNote type="publ">
+            Pub. by The Rhode Island News Company, Providence, R. I. M-19096
+        </printedNote>
+        <printedNote type="publ">
+            AMERICHROME A N C N Y LEIPZIG BERLIN NEW YORK PRINTED IN THE UNITED STATES
+        </printedNote>
+        <printedNote>[illegible]</printedNote>
+        <postmark>
+            <location subject="post">[illegible]</location>
+            <timestamp>
+                <date month="August" day="24">AUG 24 [illegible]</date>
+                <time>1030A</time>
+            </timestamp>
+        </postmark>
+        <stamp>U.S. POSTAGE
+            <price currency="USD" value="1">1 CENT 1</price>
+        </stamp>
+        <message>
+            <closer>From. 
+                <name subject="sender">Molly.</name>
+            </closer>
+        </message>
+        <address>
+            <name subject="recipient">Mrs. Andrew Perry.</name>
+            <location subject="recipient">
+                <street>Wilson Av</street>. 
+                <city>Rumford</city> 
+                <state abbr="RI">R. I.</state></location>
+        </address>
+    </back>
+</postcard>
+
+<postcard n="3">
+    <front>
+        <printedNote type="publ">Executive Office ESTHER MANOR 
+            <location subject="sender">
+                <street>Rt. 17B</street>, 
+                <city>Monticello</city>, <state abbr="NY">N.Y.</state> <zip>12701</zip>
+            </location>
+        </printedNote>
+        <postmark>
+            <location subject="post">
+                <city>MONTICELLO</city>, <state abbr="NY">NY</state> <zip>12701</zip>
+            </location>
+           <timestamp>
+               <date month="May" day="10" year="1967">May 10 1967</date>
+               <time>[illegible] PM</time>
+           </timestamp>
+        </postmark>
+        <stamp>United States Washington 
+            <price currency="USD" value="5">5c</price>
+        </stamp>
+        <printedNote>FIRST CLASS MAIL</printedNote>
+        <printedNote type="instr">To:</printedNote>
+        <mailnote>Returned to writer 
+            Bronx, NY 10466 
+            Moved, left no address 
+            Moved, not forwardable
+                Addressee unknown 
+            Refused</mailnote>
+        <address>
+            <name subject="recipient">Miss Christina Stetina 8-A419</name>
+            <location subject="recipient">
+                <street>638 E. 224th Street</street> 
+                <city>Bronx</city>, <state abbr="NY">New York</state>
+            </location>
+        </address>
+    </front>
+    <back>
+        <printedNote type="descr">
+            Time to pack your tennis racquet, golf clubs, camera, tanning 
+            lotion, swim suits, evening attire, anything else you may want--
+            and your best smile!
+        </printedNote>
+        <message>
+            <opener>Dear Friends:</opener>
+            <body>
+                It has been a long, cold, snow winter. For a wonderful change of pace, plan 
+                your <location subj="ref"><place>Esther Manor</place></location> vacation 
+                now -- unlimited fun  and pleasure for the entire family! Indoor and outdoor 
+                swimming, steam rooms and health club, tennis, handball, golf, baseball, plus top 
+                entertainment, dancing, and late, late shows await you. The Day Campis under
+                the alert supervision of trained counsellors. The Teenage Program is better than 
+                ever. Hospitality here is as worm and  abundant as the rays of the sun. May we
+                suggest that you plan your <location subj="ref"><place>Esther Manor</place></location> 
+                vacation now?
+            </body>
+            <closer>
+                <name subject="sender">Esther</name> + 
+                <name subject="sender">Irene</name>
+            </closer>
+        </message>
+        <printedNote type="descr">
+            <location subj="ref"><place>ESTHER MANOR</place></location>
+            <location subject="sender">
+                <street>Rt. 17B</street> <city>Monticello</city>, 
+                <state abbr="NY">N. Y.</state> <zip>12701</zip>
+            </location> 
+            Tel. (914 794-7500 DIRECT WIRE: (212) YU 9-3181
+        </printedNote>
+    </back>
+</postcard>
+
+<postcard n="4">
+    <front>
+        <printedNote>POST CARD</printedNote>
+        <stamp>POSTAGE REVENUE
+            <price currency="GBP" value="1">1p</price>
+        </stamp>
+        <stamp>POSTAGE REVENUE
+            <price currency="GBP" value="1">1p</price>
+        </stamp>
+        <postmark>
+            <location subject="post"><city>SOUTH TOTTENHAM</city> N.15</location>
+            <timestamp>
+                <time>715PM</time>
+                <date month="April" day="21" year="1942">21 APR 1942</date>
+            </timestamp>
+        </postmark>
+        <printedNote type="publ">This parcel has been presented by</printedNote>
+        <printedNote type="descr">Sketch by Grimes</printedNote>
+        <printedNote type="descr">WE'RE ALL LIT UP--LET BETTLE COMMENCE</printedNote>
+        <address>
+            <name subject="recipient">W.H.Caldwell Esq.,</name>
+            <location subject="recipient">
+                <street>275 Clinton Ave.</street>, 
+                <city>Brooklyn</city>, <state abbr="NY">N.Y.</state> 
+                <country>U.S.A.</country>
+            </location>
+        </address>
+        <mailnote>PASSED P.148</mailnote>
+    </front>
+    <back>
+        <printedNote type="instr">Please write your message to the Donor below:--</printedNote>
+        <printedNote type="publ">
+            This parcel is presented through the Over-Seas League Tobacco Fund.
+        </printedNote>
+        <message>
+            <opener>Dear <name subject="recipient">Sir</name></opener>
+            <body>
+                Many Thanks, Ill soon be out of here now, then I shall be lit up! God 
+                Bless America and <name subject="ref">F.D.R.</name>
+            </body>
+            <closer>yours sincerely
+                <name subject="sender">Pte Maynard.A.T. GL.08616 R.A.S.C.</name>
+            </closer>
+        </message>
+        <printedNote type="instr">
+            IMPORTANT: AT THE REQUEST OF THE AUTHORITIES DO NOT DISCLOSE
+            ANY PARTICULARS OF YOUR UNIT
+        </printedNote>
+        <printedNote>W.541</printedNote>
+    </back>
+</postcard>
+       
+ <postcard n="5">
+     <front>
+        <printedNote type="descr">
+           <location subject="ref">
+               <place>Woonsocket Falls</place> and <place>Sayles Street Bridge</place>, 
+               <city>Woonsocket</city>, <state abbr="RI">R. I.</state>
+           </location>
+        </printedNote>
+        <printedNote>217506</printedNote>
+     </front>
+     <back>
+         <printedNote>POST CARD</printedNote>
+         <printedNote type="publ">
+             FAMOUS THROUHOUT THE WORLD QUALITY L&amp;V CO TRADE MARK
+         </printedNote>
+         <postmark>
+             <location subject="post"><city>WEBSTER</city> <state abbr="MA">MASS</state></location>
+             <timestamp>
+                 <date year="1914">[illegible] 1914</date>
+                 <time>[illegible]</time>
+             </timestamp>
+         </postmark>         
+         <printedNote type="publ">
+             The Leighton &amp; Valentine Co.,N.Y. City. Printed in United States.
+         </printedNote>
+         <message>
+            <body> 
+               I went visiting in this place last summer. Hope you will like the card and answer soon
+            </body>
+            <closer>
+                <name subject="sender">Inez L. White</name>
+                <location subject="sender">
+                    <box>R #1 Box 32</box> 
+                    <city>Webster</city>, <state abbr="MA">Mass</state>.
+                </location>
+            </closer>
+         </message>
+         <printedNote type="instr">Address only</printedNote>
+         <address>
+             <name subject="recipient">Mrs. F.C. Copp</name>
+             <location subject="recipient">
+                 <city>West Newbury</city> <state abbr="MA">Mass</state>
+             </location>
+         </address>
+     </back>
+ </postcard> 
+    
+<postcard n="6">
+    <front>
+        <printedNote type="descr">Who are you?</printedNote>
+        <message>Do you think you can find names for these?</message>
+    </front>
+    <back>
+        <printedNote type="descr">TUCK'S POST CARD</printedNote>
+        <postmark>
+            <location subject="post">[illegible]</location>
+            <timestamp>
+                <time>10PM</time>
+                <date day="20" year="1906">[illegible] 20 06</date>
+            </timestamp>
+            3
+        </postmark>
+        <stamp><price value=".5" currency="GBP">HALF PENNY</price></stamp>
+        <printedNote>CARTE POSTALE POSTKARTE</printedNote>
+        <printedNote type="descr">"CHICKS AND DUCKLINGS."</printedNote>
+        <printedNote type="publ">
+            Raphael Tuck &amp; Sons' "Oilette" [Regd.] Postcard 9175. are publishers 
+            to their majesties the King &amp; Queen.
+        </printedNote>
+        <printedNote type="instr">
+            If sent Abroad, this Space may only be used for Name and Address of Sender.
+        </printedNote>
+        <message>
+            <opener>Dear <name subject="recipient">Nellie</name></opener>
+            <body>
+                Many thanks for P.C. Hope you are not all blown away. The weather has been 
+                fearful down here. I have been to <location subject="ref"><place>Two
+                Falls</place></location> this week so you can guess I am nearly dead.
+            </body>
+            <closer>Love to all <name subject="sender">Gale</name></closer>
+        </message>
+        <printedNote type="descr">Printed in England</printedNote>
+        <printedNote type="instr">(For Address Only)</printedNote>
+        <address>
+            <name subject="recipient">Miss Hall:</name>
+            <location subject="recipient">
+                <place>Fern Lodge</place>, 
+                <city>Pulborough</city>.</location>
+        </address>
+    </back>
+</postcard>
+
+ <postcard n="7">
+     <front>
+         <printedNote type="descr">
+             R-6 Pagoda, <location subject="ref"><place>Mt. Penn</place>, 
+                 <city>Reading</city>,<state abbr="PA">Pa</state></location>
+         </printedNote>
+     </front>
+     <back>
+         <printedNote type="descr">
+             PAGODA 
+             <location subject="ref"><city>READING</city>, <state>PA</state></location>. 
+             1908. 1939 view, Curt Teich Postcard Collection, Lake County (Ill.) Museum. 
+             From Ducks &amp; Diners. © 1988 National Trust for Historic Preservation. 
+             The Preservation Press.
+         </printedNote>
+         <postmark>
+             <location subject="post"><city>WASHINGTON, DC</city> 200</location>
+             <timestamp>
+                 <time>[illegible] PM</time>
+                 <date year="1992">[illegible] 1992</date>
+             </timestamp>
+         </postmark>      
+         <stamp>
+             <price currency="USD" value="19">19</price>
+             USA
+         </stamp>
+         <message>
+             <date month="November" day="12" year="1992">11-12-92</date>
+             <body>
+                 What is a WONK? I don't really know-- a kind of expert in 
+                 numbers. <name subject="ref">Puddles</name> is better, 
+                 <name subject="ref">Marilyn</name>'s ankle is better; but 
+                 she had an emergency root canal yesterday UGH!
+             </body>
+             <closer>
+                 <name subject="sender">Douglas Gomery</name>
+                 <location subject="sender">
+                     <street>4817 Drummond Ave</street>. 
+                     <city>Chevy Chase</city>, <state abbr="MD">MD</state> <zip>20815</zip>
+                 </location>
+             </closer>
+             <address>
+                 To:
+                 <name subject="recipient">The Gomerys</name>
+                 <location subject="recipient">
+                     <street>1550 Highland Lane</street> 
+                     <city>Delray Beach</city>, <state abbr="FL">FL</state> <zip>33444</zip>
+                 </location>
+             </address>
+         </message>
+     </back>
+ </postcard>
+    
+</Postcards>
