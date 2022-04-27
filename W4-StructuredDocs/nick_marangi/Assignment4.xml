@@ -1,56 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W5-Sources/tei_validation_practice.rng" type="application/xml"   schematypens="http://relaxng.org/ns/structure/1.0"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Practice Validation and Some more XML explanations</title>
-                <author ref="https://orcid.org/0000-0002-0215-4324">Elli Mylonas</author>
-            </titleStmt>
-        </fileDesc>
-    </teiHeader>
-    
-    <text>
-     
-        <body>
-            
-            <!--       
-           There are three validation errors in the silly memo below. Look for the red lines to see approxlimately where the problems appear. You can also find information 
-           in the error message at the bottom of the screen. The encoding documentation that describes which elements are used in this small schema and where 
-           they should appear is in Canvas.
-        -->  
-            
-            <div xml:id="abc">
-                
-                <head xml:id='def'>A Silly Memo</head>
-                
-                <opener>From: 
-                    <name type="person">The Professor</name>
-                To: 
-                    <name type="person">The Scientist</name>
-                Date: <date when="2022-04-01">April 1, 2022</date>
-                </opener>
-                
-                <p xml:id="ghi">Good news. We have discovered the source of the high pitched sound. It glows blue in direct sunlight. We suspect it will taste of blueberries.</p>
-                <signed>Yours ever, in science</signed>
-                
-            </div>
-            
-            <!--       
-           Once  the silly memo is valid, you can enhance it with some further markup details. use the encoding documentation in your Canvas assignment.
-           
-           1. Identify the Professor and the Scientist as names. Add an "type" attribute that indicate that this is the name of a person. (You can surround the element
-                and press   Command-E (Mac)/Control-E (Windows) to see a list of allowed elements. Typing a space inside the opening tag, right after the element
-                name, will show you a list of allowed attributes. 
-           2. In the teiHeader, add a "ref" attribute to the author, with a link to their ORCID id,  
-               which is: https://orcid.org/0000-0002-0215-4324 
-           3. Number the <div>, <header> and <p> elements using an "xml:id" attribute, so they can be unambiguously identified and linked to.
-        -->
-            
-            
-            
-        </body>
-    </text>
-</TEI>
+<assignment num='4.5' point_value='9' due_day='24' due_month='April' due_year='2022'>
+    <comic_strip title="Peanuts" author="Charles Shulz" day='11' month='May' year='1957'>
+        <panel num='1'>
+            <text type='dialogue' origin='Charlie Brown'>
+                PEOPLE COME AND PEOPLE GO. BUT THE EARTH KEEPS ON SPINNING..
+            </text>
+        </panel>
+        <panel num='2'>
+            <text type='dialogue' origin='Lucy van Pelt'>
+                "SPINNING"? WHAT DO YOU MEAN. "SPINNING"?
+            </text>
+            <text type='dialogue' origin='Charlie Brown'>
+                SPINNING THROUGH SPACE..THE EARTH KEEPS SPINNING THROUGH SPACE..
+            </text>
+        </panel>
+        <panel num='3'>
+            <text type='exclamation' origin='Lucy van Pelt'>
+                HAHAHAHAHA!!!
+            </text>
+            <text type='dialogue' origin='Charlie Brown'>
+                ?
+            </text>
+        </panel>
+        <panel num='4'>
+            <text type='dialogue' origin='Lucy van Pelt'>
+                OH. MY. CHARLIE BROWN! YOU MAY NOT BE THE BRIGHTEST PERSON IN THE WORLD BUT YOU SURE HAVE SOME IMAGINATION!
+            </text>
+            <text type='dialogue' origin='Charlie Brown'>
+                good grief!
+            </text>
+        </panel>
+    </comic_strip>
+    <comic_strip title="For Better or For Worse" author="Lynn Johnston" day='28' month='May' year='2018'>
+        <panel num='1'>
+            <text type='action' origin='John Patterson' desc='Slams door shut'>
+                SLAM!
+            </text>
+        </panel>
+        <panel num='2'>
+            <text type='action' origin='John Patterson'>
+                SLAM! WHAM! BANG!!
+            </text>
+        </panel>
+        <panel num='3'>
+            <text type='action' origin='John Patterson' desc='Slams door shut'>
+                SLAM!
+            </text>
+        </panel>
+        <panel num='4'>
+            <text type='dialogue' origin='Elly Patterson'>
+                A LITTLE TESTY THIS MORNING ARE WE?!!
+            </text>
+        </panel>
+    </comic_strip>
+    <comic_strip title="Nancy Classics" author="Ernie Bushmille" day='16' month='August' year='2021'>
+        <panel num='1'>
+            <text type='dialogue' origin='Fritzi Ritz'>
+                NANCY---I BOUGHT YOU A WHOLE JAR OF COOKIES ALL FOR YOURSELF
+            </text>
+        </panel>
+        <panel num='2'>
+            <text type='dialogue' origin='Fritzi Ritz'>
+                THAT's ODD--- SHE"S NOT EATING THEM
+            </text>
+        </panel>
+        <panel num='3'>
+        </panel>
+        <panel num='4'>
+            <text type='dialogue' origin='Nancy Ritz'>
+                I ENJOY THEM MORE THIS WAY
+            </text>
+        </panel>
+    </comic_strip>
+    <comic_strip title="Spiderman" author="Stan Lee and Larry Liebe" day='30' month='November' year='1980'>
+        <panel num='1'>
+            <text type='dialogue' origin='Bank Teller'>
+                ANY IDENTIFICATION?
+            </text>
+            <text type='dialogue' origin='Spiderman'>
+                LOOK AT MY COSTUME! WHO DO YOU THINK I AM?!!
+            </text>
+            <text type='dialogue' origin='Bank Teller'>
+                ANYONE CAN RENT A COSTUME!
+            </text>
+        </panel>
+        <panel num='2'>
+            <text type='dialogue' origin='Bank Teller'>
+                DRIVER'S LICENSE? SOCIAL SECURITY?
+            </text>
+            <text type='dialogue' origin='Spiderman'>
+                LOOK! I'VE A SECRET IDENTITY! I CAN'T BLOW MY COVER!
+            </text>
+        </panel>
+        <panel num='3'>
+            <text type='dialogue' origin='Bank Teller'>
+                AND WE CAN'T CASH JUST ANY OLD CHECK!
+            </text>
+            <text type='dialogue' origin='Bank Teller'>
+                AND YOU'RE HOLDING UP THE LINE!
+            </text>
+        </panel>
+        <panel num='4'>
+            <text type='dialogue' origin='Spiderman'>
+                I FINALLY GET $2,000-- AND I CAN'T CASH THE CHECK!
+            </text>
+            <text type='dialogue' origin='Spiderman'>
+                O.K.! THERE'S ONLY ONE THING LEFT TO DO!
+            </text>
+        </panel>
+    </comic_strip>
+</assignment>
