@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epitaphs>
+<break n="1"/>
+<epitaph type="ornate"/>
+<name>Ada Lovelace</name>
+In the Byron vault below
+Lie the remains of
+Augusta Ada,
+only daughter of
+<relation type="father">George Gordon Noel,
+6th Lord Byron</relation>
+and wife of
+<relation type="husband">William, Earl of Lovelace</relation>
+<born>Born 10th Dec 1815</born>
+<died>Died 27th Nov 1852</died>
+R.I.P.
+<break n="2"/>
+<epitaph type="headstone"/>
+<name>Captain Joseph Alger
+</name>Sacred to the Memory
+of
+<name>Capt. JOSEPH ALGER</name>
+who departed this Life
+<died>June 21st 1794</died>
+<age>Aged 25 Years,
+11 Months,
+6 Days</age>
+<break n="3"/>
+<epitaph type="stone tablet"/>
+<name>Publius Oppius, Roman Soldier
+</name>P(ublius) Oppi[us, son of...],
+of (the tribe of) <relation type="mother">.Camilia,
+...cio, of Ravenna</relation>,
+<profession>soldier of the Legio V
+</profession>Macedonica, (of the rank of) optio,
+<age>lived
+30 years</age>, served in the army nine years
+(and) is buried here.
+(His) heir made (this tombstone).
+<break n="4"/>
+<epitaph type="gravestone"/>
+<name>Elizabeth</name>
+<born>1870</born> - 
+<died>1952</died>
+</epitaphs>
