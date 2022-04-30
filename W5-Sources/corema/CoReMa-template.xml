@@ -135,7 +135,7 @@
 
   <!-- Enter the recipe below -->
 
-  <!-- This is a sample encoding of a small part of the recipe. The translation is mine, so not accurate for cooking, as this is medieval German, and I'm guessing at a lot of it. By looking at the elements and attrbutes, as well as the English keywords you can figure out the basic recipe structure. 
+  <!-- This is a sample encoding of a small part of the recipe. The translation is mine, so not accurate for cooking, as this is medieval German, and I'm guessing at a lot of it. By looking at the elements and attrbutes, as well as the English keywords you can figure out the basic recipe structure. Either type over and extend what is below, or delete and start over.
        -->
   <text>
     <body xml:space="preserve"><div n="1" type="recipe" xml:id="b2.1" xml:lang="de-x-enh">
