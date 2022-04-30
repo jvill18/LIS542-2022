@@ -1,2 +1,2 @@
 # LIS542-2022
-Week 5.3 assignments - Marking up a document according to schema documentation.
+Week 6 and 7 assignments - Marking up a document according to schema documentation.
