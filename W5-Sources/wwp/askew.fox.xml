@@ -3,6 +3,13 @@
 
 <!-- $Id$ -->
 <TEI xmlns="http://www.wwp.northeastern.edu/ns/textbase">
+  
+  <!-- The header of this file is prepopulated with metadata about the text of Anne Askew and also contains publication information
+        about the Women Writers Project at Northeastern University (in the publicationStmt).The element called <biblStruct>,
+        also in the header, has bilbiographic information about the printed source, and the <encodingDesc> and <profileDesc> link to WWP
+        files that describe their encoding practice and provide other standard boilerplate.
+  -->
+  
   <teiHeader xml:id="TR00010.hdr">
     <fileDesc>
       <titleStmt>
@@ -120,12 +127,16 @@
       </change>
     </revisionDesc>
   </teiHeader>
+  
+  
+  <!-- Main text goes in the <front>, <body>, and <back> elements below. If you are working with the Askew text, you will only need to use the 
+  -->
   <text xml:id="TR00010">
     
     <front><!--$$$$$ front matter, if any $$$$$--></front>
     <body>
-      <p>$$$$$ This <gi>p</gi> element is here just so this skeleton
-      <soCalled>starter</soCalled> file is (almost) valid. Delete it. $$$$$</p>
+      <p>$$$$$ This paragraph element is here just so this skeleton
+       file is  valid. Delete it. $$$$$</p>
     </body>
     <back><!--$$$$$ back matter, if any $$$$$--></back>
   </text>
