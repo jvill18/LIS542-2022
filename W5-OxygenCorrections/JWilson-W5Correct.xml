@@ -28,7 +28,7 @@
                 
                 <opener>From: The <name type="personRoleName">Professor</name>
                 To: The <name type="personRoleName">Scientist</name>
-                Date: <date when="--04-01">April 1, 2022</date>
+                Date: <date when="2022-04-01">April 1, 2022</date>
                 
                 Good news.</opener>
                 
