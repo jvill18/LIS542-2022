@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graves>
+    <epitaph n="1" lang="latin" translation="english">
+        <name type="first">Publius</name>
+        <name type="last">Oppius</name>
+        <relationship type="tribe">filius Camilia</relationship>
+        <location type="residence">Ravenna</location>
+        <occupation>
+            <title>soldier of the Legio V Macedonia</title>
+            <rank>optio</rank>
+            <length>served in the army 9 years</length>
+        </occupation>
+        <age>lived 30 years</age>
+        <additional_text>(His) heir made (this tombstone).</additional_text>
+    </epitaph>
+    
+    <epitaph n="2" lang="english">
+        <tribute>In the Byron vault below Lie the remains of</tribute>
+        <name type="first">Augusta</name>
+        <name type="middle">Ada</name>
+        <name type="last">Lovelace</name>
+        <location type="grave">Byron vault</location>
+        <relationship type="father">only daughter
+            <name type="father's first">George</name>
+            <name type="father's middle">Gordon</name>
+            <name type="father's middle">Noel</name>
+            <name type="father's last">Byron</name>
+            <name type="father's title">6th Lord Byron</name>
+        </relationship>
+        <relationship type="husband">wife
+            <name type="husband's first">William</name>
+            <name type="husband's title">Earl of Lovelace</name>
+        </relationship>
+        <born>1815-12-10</born>
+        <died>1852-11-27</died>
+    </epitaph>
+    
+    <epitaph n="3" lang="english">
+        <tribute>Sacred to the Memory of</tribute>
+        <name type="prefix">Captain</name>
+        <name type="prefix abbreviation">Capt.</name>
+        <name type="first">JOSEPH</name>
+        <name type="last">ALGER</name>
+        <died>1794-06-21</died>
+        <age>25 years, 11 months, 6 days</age>
+    </epitaph>
+    
+    <epitaph n="4" lang="english">
+        <name type="first">Elizabeth</name>
+        <born>1870</born>
+        <died>1952</died>
+    </epitaph>
+    
+</graves>
