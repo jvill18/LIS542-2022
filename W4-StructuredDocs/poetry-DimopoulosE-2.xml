@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+
+<title subtitle = "l ’a leaf falls’ oneliness" > l(a </title>
+<author>e.e. cummings</author>
+    <form type = "free verse">
+        <devices type = "tmesis" layout = "vertical pagesetting">
+            <!-- oh no my cat stole my shift key/living that no caps life -->
+            <stanza>
+            l(a
+            </stanza>
+            
+            <stanza>
+            le
+            af
+            fa
+            </stanza>
+            
+            <stanza>
+            ll
+            </stanza>
+            
+            <stanza>
+            s)
+            one
+            l
+            </stanza>
+            
+            <stanza>
+            iness
+            </stanza>
+            <!-- could break into lines but considering the verticality of the text, the stanza seems more likely to be the simplest significant unit -->
+        </devices>
+    </form>
+</poem>

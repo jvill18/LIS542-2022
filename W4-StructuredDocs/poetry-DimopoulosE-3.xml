@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+
+    <title >Camh (On Sight)</title>
+    <author>Douglas Kearney</author>
+        <form type = "free verse">    
+            <devices type = "ekphrasis" layout = "visual poetry with overlaping voices">
+        
+        <voice number = "1" time = "0.00 -0.16">
+        <style type ="All Caps">[Blanche</style> is in Houston. At the pleasure end of a salvo of 18-foot horns, erected row valves, the gallery floor to a laminate trumpet. this takes a long time and we wonder, we shuffle]
+        </voice>
+            <voice number = "2" time = "0.15 - 0.17"> this halves the gallery.
+            </voice>
+        <voice number ="1" time = "0.16 - 0.18"> doles out
+        </voice>
+
+        </devices>
+    </form>
+</poem>

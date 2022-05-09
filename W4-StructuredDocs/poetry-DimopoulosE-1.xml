@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poem>
+    <title>The light of a candle</title>
+    <author>Yosa Buson</author>
+    <form type = "haiku">    
+        
+        <line n = "1" s = "5"> 
+        The light of a candle
+        </line>
+
+        <line n = "2" s = "7"> 
+            is transferred to another candle— <!-- elle call out emdash/caesura for easy token later? -->            
+        </line>
+
+        <line n = "3" s = "3">
+        spring twilight.
+        </line>
+        
+    </form>
+</poem>
