@@ -1,0 +1,73 @@
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Assignment for week 6 and 7</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cali Vance</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>IIP003</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>stone</material>
+                                    and <objectType/> headstone, <dimensions
+                                        ana="dimensions"><height>2 feet</height><dim>1.5 feet</dim></dimensions></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                  <layout columns="1" writtenLines="8"></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            <p>There is an angel at the top of the headstone.</p></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>New Jersey</origPlace>
+                            <origDate>1794</origDate>
+                        </origin>
+                        <provenance type="found"> Trenton, New Jersey
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2022-05-04" who="Cali Vance"> initial entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                <p>
+                   <lb/> Sacred to the Memory 
+                   <lb/> of 
+                   <lb/> <name><roleName><abbr>Capt.</abbr></roleName> JOSEPH ALGER </name>
+                   <lb/> who departed this Life 
+                   <lb/> <date>June 21st 1794</date> 
+                   <lb/> aged <time>25 Years , 
+                   <lb/> <date>11 Months</date> &amp; ampersand 
+                   <lb/> <date>6 Days</date></time>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

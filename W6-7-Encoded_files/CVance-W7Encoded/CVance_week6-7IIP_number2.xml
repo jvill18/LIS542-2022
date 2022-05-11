@@ -1,0 +1,82 @@
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Assignment for week 6 and 7</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cali Vance</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>IIP002</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>stone</material>
+                                    and <objectType/> wallmount_headstone, <dimensions ana="dimensions_unknown"></dimensions></support>
+                            </supportDesc>
+                            <layoutDesc>
+                               <layout columns="1" writtenLines="11"></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            <dimensions type="letter" extent="height" unit="cm"/>
+                                <p>The inscription is carved into the stone with no color. There is
+                                    a decorative boarder and crest.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Peerage of the United Kingdom</origPlace>
+                            <origDate calendar="1852-11-27">November 27, 1852</origDate>
+                        </origin>
+                        <provenance type="found"> in a grassy field in Lovelace
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2022-05-04" who="Cali Vance"> initial entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition">
+                   <p>
+                    <lb/>In the <location> <placeName>Byron vault</placeName></location> below 
+                    <lb/>Lie the remains of 
+                    <lb/><persName type="firstname">Augusta</persName> <persName type="lastname">Ada</persName>, 
+                    <lb/>only daughter of  
+                    <lb/><persName>George Gordon Noel</persName>, 
+                    <lb/><roleName>6th Lord Byron</roleName> 
+                    <lb/> and wife of  
+                    <lb/><persName>William, <roleName>Earl of Lovelace</roleName></persName> 
+                    <lb/>born <date>10th Dec 1815</date> 
+                    <lb/> Died <date>27th Nov 1852</date> 
+                    <lb/> <abbr>R.I.P.</abbr>
+                   </p>
+            </div>
+            <div type="commentary">
+                <p>This tombstone marks the grave of the wife of the Earl of Lovelace. The Earl of
+                    Lovelace is in the Peerage of the United Kingdom.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
