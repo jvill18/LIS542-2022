@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Example 3 [ ] -->
+
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary Inscriptions Encoding [Week 6-7]</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Find a Grave</repository>
+                        <idno>haut0001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>marble</material>
+                                    <objectType>plaque</objectType>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>65</height>
+                                        <width>35</width>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                        <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="6"/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote ana="engraved">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="4"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Haute-Normandie, France</origPlace>
+                            <origDate>1926</origDate>
+                        </origin>
+                        <provenance/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.findagrave.com/memorial/5069/claude-monet"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>ICI REPOSE 
+                    <lb n="2"/>NOTRE BIEN AIMÉ
+                    <lb n="3"/>CLAUDE MONET
+                    <lb n="4"/>NE LE 14 NOVEMBRE 1840
+                    <lb n="5"/>DECEDE LE 5 DECEMBRE 1926
+                    <lb n="6"/>REGRETTÉ DE TOUS
+                </ab>
+            </div>
+            <div type="translation">
+                <p>Here rests our beloved Claude Monet, born the 14th of November, 1840, died the 5th of December, 1926 to the regret of all.</p>
+            </div>
+            <div type="commentary">
+                <p>Monet was an artist and leader of the Impressionist school of painting.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

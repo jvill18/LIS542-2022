@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Example 2 [ ] -->
+
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Funerary Inscriptions Encoding [Week 6-7]</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Find a Grave</repository>
+                        <idno>irel0001</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>granite</material>
+                                    <objectType>headstone</objectType>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>75</height>
+                                        <width>45</width>
+                                        <depth>10</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                        <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="6"/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote ana="engraved">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="2"/>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <ab>engraved dragon</ab>
+                                <locus>"holding" inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Wicklow, County Wicklow, Ireland</origPlace>
+                            <origDate>2011</origDate>
+                        </origin>
+                        <provenance/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.findagrave.com/memorial/81822612/anne-mccaffrey"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Anne Inex McCaffrey
+                    <lb n="2"/>Author
+                    <lb n="3"/>1st April 1926 - 21st November 2011
+                    <lb n="4"/>A woman's reach should exceed her grasp
+                    <lb n="5"/>Or what's a heaven for?
+                    <lb n="6"/>Sweet dream Sweet heart
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>McCaffrey was the first woman to win a Hugo award for fiction for her novella "Weyr Search," which was later incorporated into her Dragonriders of Pern series of novels, perhaps her most celebrated works. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
