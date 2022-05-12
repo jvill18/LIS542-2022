@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000521"><!-- Change @xml:id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Hamilton M. Dyke</title>
+                <title type="alternative">Letter to Hamilton M. Dyke, 24 February 1843</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Megan Ward</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+				<respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Coding review</resp>
+					<resp>Formatting review</resp>
+					<resp>Implement corrections</resp>
+                </respStmt>
+                                            <respStmt xml:id="MB">
+                    <name>Mary Borgo</name>
+                    <resp>Tagging Correctionss</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Proofing</resp>
+                </respStmt>    
+                                            <respStmt xml:id="MR">
+                    <name>Matthew Rubery</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                </respStmt>    
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2022</date>
+                <idno type="LEAP-ID">liv_000521</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country>
+                        <settlement>Makhanda</settlement>
+                        <repository>Cory Library for Historical Research</repository>
+  <!--change-->                      <idno type="shelfmark">MS. 1003</idno>
+                        <altIdentifier>
+ <!--change-->                           <idno type="ccnumber">Letters, 0394</idno><!-- This the CC number; change, as appropriate -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Hamilton M. Dyke, 24 February 1843</title>
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1843-02-24">24 February 1843</date>
+                    <placeName type="compositionPlace">Motito</placeName>
+                    <persName type="addressee">Hamilton M. Dyker</persName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- For language abbreviations, see https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry --> 
+				<!-- English should be first, then add all other languages in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+            <change when="2018-01-22" who="#AW">Transcription and TEI encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Start each page with a <pb> formatted as below and indented as below -->               
+	<pb facs="liv_000521_0001" n="0001"/><!-- Change both @facs and @n -->
+                
+<opener>
+    <lb/><dateline><space extent="4" unit="words"/></dateline><placeName><settlement type="city">Motito</settlement></placeName><date when="1843-02-24">24 <choice><abbr>Feb</abbr><expan>February</expan></choice> 1843</date>
+    <lb/><salute> My Dear <persName>Brother</persName></salute>
+</opener>
+
+<lb/><p><space extent="3" unit="words"></space>I was very much gratified
+    <lb/>indeed by the reception of the kind favour you
+    <lb/>sent by <persName><roleName>M<hi rend="sup">r</hi></roleName> Lennie</persName> &amp;<gap extent="1" unit="chars" agent="blot"/>s I am just
+    <lb/>about to cross the boundary of comparative <w>civilizat<supplied>-</supplied>
+    <lb break="no"/><seg type="hyphen">-</seg>ation</w> in order to visit the <region>Interior</region> I should be
+    <lb/>sorry did I not give you a word in passing by way of acknowledgement.
+    <lb/>An answer it cannot be for I have
+    <lb/>unfortunately left yours behind at <settlement><w>Kuru<supplied>-</supplied>
+    <lb break="no"/><seg type="hyphen">-</seg>man</w></settlement> But I hope you will receive it such as it <unclear cert="low">is</unclear> with forbearance.
+</p>
+
+<lb/><p>I am most happy to hear the heart
+    <lb/>enlivening accounts of the state of your
+    <lb/>missions among the <term type="ethnic-group">Bassoutos</term>, you
+    <lb/>have been very highly favoured, May the
+    <lb/>Lord grant that you be blessed still
+    <lb/>more &amp; that you may not only become
+    <lb/>the benefactors of the people among
+    <lb/>whom you at present are But that
+    <lb/>by means of them you may become
+    <lb/>blessings to many beyond you in the
+    <lb/><region>Interior</region>. Many being raised up by your
+    <lb/><gap extent="6" unit="chars" agent="illegible"/> instrumentality <unclear cert="medium">to</unclear> spread the knowledge
+</p>
+
+<cb rend="vertical"/><p>
+    I expect to return (D<gap extent="1" unit="chars"/>) in about 4 months. If you kindly <unclear cert="low">write</unclear>
+    <lb/>so that I receive it on my return &amp; I shall be glad, <space extent="4" unit="chars"/><unclear cert="low">My friend</unclear> you
+    <lb/>try &amp; decipher putting in words awanting try &amp; leaving <unclear cert="medium">out</unclear> those which ought
+    <lb/><space extent="8t" unit="words"/><space extent="4" unit="chars"/>never to have
+    <lb/><space extent="8" unit="words"/><space extent="4" unit="chars"/>been in
+    <lb/><space extent="10t" unit="words"/><space extent="2" unit="chars"/><persName>D.L.</persName>
+</p>
+  
+                <pb facs="liv_000521_0002" n="0002"/>
+<lb/><p>of the everlasting gospel. <space extent="3" unit="chars"/><persName><roleName>M<hi rend="sup">rs</hi></roleName> L</persName> has no
+    <lb/>doubt given you an account of the state
+    <lb/>of affairs here &amp; at <placeName>K</placeName>. <space extent="3" unit="chars"/>The aspect of
+    <lb/>The\Mission is not so wanting as one might
+    <lb/>expect <space extent="2" unit="chars"/>But still the change which has been
+    <lb/>affected in a portion oof this people is very
+    <lb/>great indeed. <space extent="3" unit="chars"/>It is not such as would
+    <lb/>strike a visitor from <bloc>Europe</bloc> of <country>the Colony</country>
+    <lb/>with any thing but <unclear cert="medium"><choice><sic>disapointment</sic><corr>disappointment</corr></choice></unclear>, particular<gap extent="2" unit="chars" agent="hole"/>
+    <lb/>if he had heard the accounts of it which
+    <lb/>the good <orgName>Christians</orgName> in <country>England</country> <del type="cancelled">by</del> usually
+    <lb/>do <space extent="2" unit="chars"/>But after one sees the depths from which they have been elevated exemplified in the <region>Interior</region>there is considerable
+    <lb/>cause for Thanksgiving <space extent="3" unit="chars"/>By the way when
+    <lb/>I think of the degradation of these people I shall
+    <lb/>be glad if you <del><gap extent="1" unit="words"/></del> let me know if you
+    <lb/>believe they are really so very far sunk
+    <lb/>as has been represented, I heard <persName><roleName>M<hi rend="sup">r</hi></roleName> Moffat</persName>
+    <lb/>say in <country>England</country> that the <term type="ethnic-group">Bechuanas</term> had
+    <lb/>really no conscience until it was formed
+    <lb/>by the missionaries, Now although the
+    <lb/>statement excited my <app><rdg>risible</rdg><rdg>visible</rdg></app> faculties a 
+    <lb/>little at a time <space extent="2" unit="chars"/>thinking it was only a
+    <lb/>poetical figure expressive of the wonderful
+    <lb/>creative powers of us <hi rend="underline"><unclear cert="low">Sentelings</unclear></hi> <space extent = "2" unit="chars"/>The same
+    <lb/>statement nearly appearing in his book
+    
+            <pb facs="liv_000521_0003" n="0003"/>
+    
+</p>
+                
+<!-- More transcribed text, etc. -->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
