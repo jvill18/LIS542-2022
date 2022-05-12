@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
+    meiversion="4.0.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>WM20</title>
+                <composer>
+                    <persName role="creator">Derek Wang</persName>
+                </composer>
+                <respStmt>
+                    <persName role="encoder">Pavel Batalov</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <availability>
+                    <useRestrict> This encoding is unpublished work from my band. All rights
+                        reserved to Derek Wang.</useRestrict>
+                </availability>
+            </pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl>
+                        <title>WM20</title>
+                        <composer>
+                            <persName role="composer">Derek Wang</persName>
+                        </composer>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <parts>
+                    <part label="Bass">
+                        <staffDef lines="5" n="1" clef.line="2" clef.shape="F" meter.count="4"
+                            meter.unit="4" key.sig="2f"/>
+                        <section>
+                            <measure n="1">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="c" oct="3" dur="2" tie="i"/>
+                                        <note pname="c" oct="3" dur="8" tie="t"/>
+                                        <note pname="g" oct="2" dur="8"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="g" oct="2" dur="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="2">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="b" oct="2" dur="8"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="b" oct="2" dur="8"/>
+                                        <note pname="a" oct="2" dur="8" tie="i"/>
+                                        <note pname="a" oct="2" dur="4" tie="t"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="f" oct="2" dur="8" tie="i"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="3">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="f" oct="2" dur="2" dots="1" tie="t"/>
+                                        <note pname="c" oct="2" dur="4" tie="i"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="4">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="c" oct="2" dur="2" dots="1" tie="t"/>
+                                        <rest dur="1"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="5">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="c" oct="3" dur="2" tie="i"/>
+                                        <note pname="c" oct="3" dur="8" tie="t"/>
+                                        <note pname="g" oct="2" dur="8"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="g" oct="2" dur="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="6">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="b" oct="2" dur="8"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="b" oct="2" dur="8"/>
+                                        <note pname="a" oct="2" dur="8" tie="i"/>
+                                        <note pname="a" oct="2" dur="4" tie="t"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="f" oct="2" dur="8" tie="i"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="7">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="f" oct="2" dur="2" dots="1" tie="t"/>
+                                        <note pname="g" oct="2" dur="4" tie="i"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="8">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="g" oct="2" dur="2" dots="1" tie="t"/>
+                                        <rest dur="1"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="9">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="c" oct="3" dur="2" tie="i"/>
+                                        <note pname="c" oct="3" dur="8" tie="t"/>
+                                        <note pname="g" oct="2" dur="8"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="g" oct="2" dur="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="10">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="b" oct="2" dur="8"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="b" oct="2" dur="8"/>
+                                        <note pname="a" oct="2" dur="8" tie="i"/>
+                                        <note pname="a" oct="2" dur="4" tie="t"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="f" oct="2" dur="8" tie="i"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="11">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="f" oct="2" dur="2" dots="1" tie="t"/>
+                                        <note pname="c" oct="2" dur="4" tie="i"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="12">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="c" oct="2" dur="2" dots="1" tie="t"/>
+                                        <rest dur="1"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="13">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="c" oct="3" dur="2" tie="i"/>
+                                        <note pname="c" oct="3" dur="8" tie="t"/>
+                                        <note pname="g" oct="2" dur="8"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="g" oct="2" dur="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="14">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="b" oct="2" dur="8"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="b" oct="2" dur="8"/>
+                                        <note pname="a" oct="2" dur="8" tie="i"/>
+                                        <note pname="a" oct="2" dur="4" tie="t"/>
+                                        <note pname="c" oct="3" dur="8"/>
+                                        <note pname="d" oct="3" dur="8" tie="i"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="7">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="d" oct="3" dur="2" dots="1" tie="t"/>
+                                        <note pname="c" oct="3" dur="4" tie="i"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="8">
+                                <staff n="1">
+                                    <layer>
+                                        <note pname="c" oct="3" dur="2" dots="1" tie="t"/>
+                                        <rest dur="1"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                        </section>
+                    </part>
+                </parts>
+            </mdiv>
+        </body>
+    </music>
+</mei>
