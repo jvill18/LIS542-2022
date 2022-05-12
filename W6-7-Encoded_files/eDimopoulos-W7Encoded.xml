@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000521"><!-- Change @xml:id done-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            
+                <title>Letter to Hamilton M. Dyke,</title><!-- Change done -->
+                <title type="alternative">Letter to Hamilton M. Dyke,  24 February 1843 </title><!-- Change done -->
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal> <!-- I'm assuming this field is for the PI doing the encoding -->
+                <respStmt xml:id="EM"><!-- E or A inital here. Interesting that these "Critical encoding" authors can be separated by tasks as well as has "touched" the doc. Looking at the documentation a great use of this field would be translation i.e. translation from x to y by zed -->
+                <name>E. Alexander Munson</name> <!-- Change done -->
+                    <resp>Transcription</resp><!-- Could look at the source for this but I'm sticking to what is available online at the transcription page -->
+                    <resp>TEI Encoding</resp> <!-- Lots of interesting tasks below that could give insight into org structure wonder if these are stored somewhere -->
+                    <resp>Editorial Decisions</resp>
+	      <resp>Proofing</resp>
+	      <resp>Coding Review</resp>
+                    <resp>Are Resp Titles Coded Somewhere</resp> <!-- Nope -->
+                </respStmt>
+                
+                <respStmt xml:id="AW">
+	  <name>Adrian S. Wisnicki</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+	       <resp>Proofing</resp>
+	       <resp>Coding Review</resp>
+                </respStmt>
+                
+                <respStmt xml:id="MB">
+                    <name>Mary Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                    <resp>Editorial Decisions</resp>
+	      <resp>Proofing</resp>
+	      <resp>Coding Review</resp>
+                </respStmt>
+                <!-- Author's etc. etc. done -->
+                
+            </titleStmt>	
+            
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2017</date><!-- Change if necessary Done -->
+                <idno type="LEAP-ID">liv_000521</idno><!-- Change Done Match XML ID -->
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country><!-- Change as needed. Country of repository. -->
+                        <settlement>Grahamstown</settlement><!-- Change as needed. City of repository. In Item Details Done   -->
+                        <repository>Cory Library for Historical Research</repository><!-- Change as needed -->
+                        <idno type="shelfmark"></idno><!-- Change as needed Done. Couldn't find an attribute for this, maybe go one or two folders "up" and look at the finding aid or container -->
+                        <altIdentifier>
+                            <idno type="ccnumber"></idno><!-- This the CC number; change, as appropriate Done. See above re:shelfmark -->
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Hamilton M. Dyke, 24 February 1843</title><!-- Change Done -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-03-02">24 February 1843</date><!-- Change -->
+                    <placeName type="compositionPlace">Motito</placeName><!-- Change. Where DL composed. Done. Would have thought it close to Cape Town than Jburg -->
+                    <persName type="addressee">Hamilton M. Dyke</persName><!-- Change. Person to whom DL wrote. -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+				<!-- For language abbreviations, see https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry --> 
+				<!-- English should be first, then add all other languages in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+			<!-- Change @when, @who, and work description below. -->
+			<!-- Note that @who initials are taken from <respStmt> above -->
+			<!-- Add new <change> elements below as needed. -->
+			<!-- Note that the most recent <change> should always be placed first, at the top -->
+                
+                <change when="2018-01-22" who="#AW">Transcription and TEI encoding</change> <!-- Change practice. Dates listed online used from recent to oldest -->
+                <change when="2018-10" who="#EM">thanks for throwing off the dates</change>
+                <change when="2018-08-28" who="#AW">one more thing</change>
+                <change when="2017-04-26" who="#EM">did a thing</change>
+                <change when="2017-04-21" who="#MB">did another thing</change>
+                <change when="2015-12-14" who="#AW">return of the thing</change>
+                <change when="2015-12-07" who="#EM">2xml 2furious</change>
+                <change when="2015-11-19" who="#MB">where the heck is Motito and why am I thirsty now</change>
+                <change when="2015-10-26" who="#AW">start of a thing</change>       
+        
+        
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+	<!-- Start each page with a <pb> formatted as below and indented as below -->               
+                <pb facs="liv_000521_0001" n="00001"/><!-- Change both @facs and @n -->
+                <!-- Begin transcribed text here -->
+
+                <lb/><dateline>
+                <placeName>Motito</placeName><date when="1843-02-24">24 Feb 1843</date>
+                </dateline>
+                <lb/><salute>My Dear Brother</salute>
+                <lb/><p>I was very much gratified
+                <lb/>indeed by the reception of the kind favour you
+                <lb/>sent by <persName>Mr. Lennie</persName>&amp;<unclear></unclear>s I am just about <!-- Ok amp+semicolon what are we SQL now... using unclear for the inkblot? -->
+                <lb/>to cross the boundary of comparative civilizat
+                <lb/>-ion in order to visit the Interior I should be
+                <lb/>sorry did I not give you a word in
+                <lb/>passing by way of acknowledgment.
+                <lb/>An answer it cannot be for I have
+                <lb/>unfortunately left yours behind at <placeName>Kuru</placeName> <!-- Guessing Kuru is proper noun place name from context and Google  -->
+                <lb/>-man But I hope you will receive it such
+                <lb/>as it is with forbearance
+                </p>
+
+            <!-- Text in Quarto continued... More transcribed text, etc. -->
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
