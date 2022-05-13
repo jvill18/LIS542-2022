@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
+    meiversion="4.0.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Atys : tragédie</title>
+                <composer>
+                    <persName role="creator" auth="VIAF" auth.uri="http://viaf.org/viaf/" codedval="13099537">Jean-Baptiste Lully</persName>
+                </composer>
+                <librettist>
+                    <persName role="creator" auth="VIAF" auth.uri="http://viaf.org/viaf/" codedval="61556388">Philippe Quinault</persName>
+                </librettist>
+                <respStmt>
+                    <persName role="encoder">Emma Clarkson</persName>
+                </respStmt>
+                <respStmt>
+                    <corpName>University of Washington</corpName>
+                    <resp>Digitization</resp>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <publisher>
+                    <persName role="publisher" auth="VIAF" auth.uri="http://viaf.org/viaf/" codedval="56664134">Christophe Ballard</persName>
+                </publisher>
+                <address>
+                    <addrLine xml:lang="fr">Rue S. Jean de Beauvais au Mont Parnasse.</addrLine>
+                </address>
+                <pubPlace>Paris</pubPlace>
+                <date>1689</date>
+                <respStmt>
+                    <resp xml:lang="fr">Avec privilège de <persName auth="VIAF" auth.uri="http://viaf.org/viaf/" codedval="268675767" role="pat">Sa Majesté</persName></resp>
+                </respStmt>
+            </pubStmt>
+            <notesStmt>
+                <annot>Digitized in 2008 using a Canon EOS 40D Digital Camera and copystand.</annot>
+            </notesStmt>
+        <sourceDesc>
+            <source>
+                <bibl>
+                    <identifier type="URI">https://digitalcollections.lib.washington.edu/digital/collection/mm/id/42841/rec/2</identifier>
+                    <title>Atys</title>
+                </bibl>
+            </source>
+        </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <p>Only page 290 of the score has been encoded for this assignment.</p>
+            </samplingDecl>
+        </encodingDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef meter.count="2" meter.unit="2" key.sig="1f" key.mode="major">
+                        <pgHead2>
+                            <title>
+                                <rend xml:lang="fr">ATYS, TRAGEDIE.</rend>
+                            </title>
+                        </pgHead2>
+                        <staffGrp>
+                            <staffDef n="1" clef.line="1" clef.shape="C" lines="5"></staffDef>
+                            <staffDef n="2" clef.line="3" clef.shape="C" lines="5"></staffDef>
+                            <staffDef n="3" clef.line="4" clef.shape="F" lines="5"></staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section>
+                        <measure n="1">
+                            <harm place="above" staff="3" tstamp="1">
+                                <fb>
+                                    <f>♯</f>
+                                </fb>
+                            </harm>
+                            <harm place="above" staff="3" tstamp="3">
+                                <fb>
+                                    <f>♭</f>
+                                </fb>
+                            </harm>
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="b" accid.ges="s" oct="5" dur="2" stem.dir="down" stem.pos="center" syl="-rir,"/>
+                                    <note pname="c" oct="5" dur="2" stem.dir="down" stem.pos="center" syl="Il"/>
+                                    <note pname="b" oct="5" dur="2" stem.dir="down" stem.pos="center" syl="eſt"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <rest dur="2"/>
+                                    <note pname="e" accid.ges="f" oct="5" dur="4" dots="1" stem.pos="center" syl="Il"/>
+                                    <note pname="e" accid.ges="f" oct="5" dur="8" stem.pos="center" syl="eſt"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note pname="d" oct="3" dur="2" stem.dir="down" stem.pos="center" />
+                                    <note pname="c" oct="3" dur="2" stem.dir="up" stem.pos="center" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="2">
+                            <harm place="above" staff="3" tstamp="1">
+                                <fb>
+                                    <f>7</f>
+                                </fb>
+                            </harm>
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="c" oct="5" dur="2" stem.dir="down" stem.pos="center" syl="doux,"/>
+                                    <note pname="b" oct="5" dur="4" dots="1" stem.dir="down" stem.pos="center" syl="de"/>
+                                    <note pname="c" oct="5" dur="8" stem.dir="down" stem.pos="center" syl="mou"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note pname="e" accid.ges="f" oct="5" dur="2" stem.dir="down" stem.pos="center" syl="doux,"/>
+                                    <note pname="d" oct="5" dur="4" dots="1" stem.dir="down" stem.pos="center" syl="de"/>
+                                    <note pname="e" accid.ges="f" oct="5" dur="8" stem.dir="down" stem.pos="center" syl="mou"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note pname="f" oct="3" dur="2" stem.dir="down" stem.pos="center" />
+                                    <note pname="b" oct="2" dur="2" stem.dir="up" stem.pos="center" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="3">
+                            <harm place="above" staff="3" tstamp="2">
+                                <fb>
+                                    <f>6</f>
+                                </fb>
+                            </harm>
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="a" oct="4" dur="2" stem.dir="down" stem.pos="center" syl="rir"/>
+                                    <rest dur="4"/>
+                                    <note pname="d" oct="5" dur="4" stem.dir="down" stem.pos="center" syl="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note pname="c" oct="4" dur="2" stem.dir="up" stem.pos="center" syl="rir"/>
+                                    <rest dur="4"/>
+                                    <note pname="f" oct="5" dur="4" stem.dir="down" stem.pos="center" syl="a"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note pname="f" oct="3" dur="4" stem.dir="down" stem.pos="center" />
+                                    <note pname="d" accid.ges="f" oct="3" dur="4" stem.dir="down" stem.pos="center" />
+                                    <note pname="e" oct="3" dur="2" stem.dir="up" stem.pos="center" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="4">
+                            <harm place="above" staff="3" tstamp="1">
+                                <fb>
+                                    <f>9</f>
+                                    <f>7</f>
+                                </fb>
+                            </harm>
+                            <harm place="above" staff="3" tstamp="2">
+                                <fb>
+                                    <f>6</f>
+                                </fb>
+                            </harm>
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="d" oct="5" dur="2" stem.dir="down" stem.pos="center" syl="vec"/>
+                                    <note pname="c" oct="5" dur="4" stem.dir="down" stem.pos="center" syl="ce"/>
+                                    <note pname="c" oct="5" dur="8" stem.dir="down" stem.pos="center" syl="que"/>
+                                    <note pname="b" oct="5" dur="8" stem.dir="down" stem.pos="center" syl="l'on"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note pname="f" oct="5" dur="2" stem.dir="down" stem.pos="center" syl="vec"/>
+                                    <note pname="e" accid.ges="f" oct="5" dur="4" stem.dir="down" stem.pos="center" syl="ce"/>
+                                    <note pname="e" oct="5" dur="8" stem.dir="down" stem.pos="center" syl="que"/>
+                                    <note pname="d" oct="5" dur="8" stem.dir="down" stem.pos="center" syl="l'on"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note pname="e" accid.ges="f" oct="3" dur="1"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="5">
+                            <harm place="above" staff="3" tstamp="1">
+                                <fb>
+                                    <f>4</f>
+                                </fb>
+                            </harm>
+                            <harm place="above" staff="3" tstamp="3">
+                                <fb>
+                                    <f>3</f>
+                                </fb>
+                            </harm>
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="b" oct="4" dur="2" stem.dir="down" stem.pos="center" syl="ai-" tie="i"/>
+                                    <note pname="a" oct="4" dur="2" stem.dir="down" stem.pos="center" tie="t"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note pname="d" oct="4" dur="2" stem.dir="down" stem.pos="center" syl="ai-" tie="i"/>
+                                    <note pname="c" oct="4" dur="2" stem.dir="down" stem.pos="center" tie="t"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note pname="f" oct="3" dur="2" stem.dir="down" stem.pos="center"/>
+                                    <note pname="f" oct="2" dur="2" stem.dir="up" stem.pos="center"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <scoreDef>
+                            <meterSig count="4" unit="4" sym="common"/>
+                        </scoreDef>
+                        <measure n="6">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="b" oct="5" dur="4" stem.dir="down" stem.pos="center" syl="me!"/>
+                                    <rest dur="8"/>
+                                    <note pname="f" oct="4" dur="16" stem.dir="up" stem.pos="center" syl="Que"/>
+                                    <note pname="f" oct="4" dur="16" stem.dir="up" stem.pos="center" syl="mon"/>
+                                    <note pname="f" oct="4" dur="16" stem.dir="up" stem.pos="center" syl="a"/>
+                                    <note pname="b" oct="4" dur="8" dots="1" stem.dir="down" stem.pos="center" syl="mour"/>
+                                    <note pname="c" oct="5" dur="16" stem.dir="down" stem.pos="center" syl="fu"/>
+                                    <note pname="d" oct="5" dur="8" dots="1" stem.dir="down" stem.pos="center" syl="neſte"/>
+                                    <note pname="e" oct="5" dur="16" stem.dir="down" stem.pos="center" syl="ar-"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note pname="b" oct="4" dur="4" stem.dir="up" stem.pos="center" syl="me!"/>
+                                    <rest dur="4"/>
+                                    <rest dur="2"/>
+                                    <custos loc="5"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer n="1">
+                                    <note pname="b" oct="3" dur="1"/>
+                                    <custos loc="2"/>
+                                </layer>
+                            </staff>
+                        </measure>  
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
