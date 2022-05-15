@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://briancroxall.net/w20dh/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>    
+        <fileDesc>
+            <titleStmt>
+                <title>Calvin and Hobbes 2020-06-04 (digital transcription)</title><!--Put the date of the comic's original appearance here, in the 1952-09-15 format -->
+                <respStmt>
+                    <resp>encoder</resp>
+                    <persName ref="#r-NM">Nicholas Marangi</persName><!-- Put your name here and change the value of ref to your r-tag (e.g., #r-HJ, #r-DM, #r-AL, #r-KS) -->
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt> 
+                <publisher>
+                    <orgName ref="https://briancroxall.net/w22dh">Digital Humanities 325, Spring 2022</orgName>
+                </publisher>
+                <availability status="free">
+                    <!-- alternative values are "restricted" and "unknown" -->
+                    <!-- example availability info -->
+                    <licence>
+                        This work is licensed under a Creative Commons Attribution 4.0 International License. <ref target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+                        <p>Please acknowledge Digital Humanities 315, Winter 2020-2022 when re-using or re-publishing.</p>
+                    </licence>
+                </availability>
+                <!-- project assigned ID -->
+                <idno type="local">CalvinAndHobbes2020-06-04</idno>
+            </publicationStmt>
+            
+            <!-- This is about the source -->
+            <sourceDesc>
+                <bibl>
+                    <title level="a">Calvin and Hobbes 2020-06-04</title>
+                    <author ref="https://viaf.org/viaf/73875998/">Bill Watterson</author>, 
+                    <title>The Complete Peanuts: 1950 to 1952</title>
+                    <publisher>Andrews McMeel Publishing</publisher>,
+                    <date>2020</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <!-- This is a call to the external taxonomy that we're using: https://github.com/briancroxall/peanuts-taxonomy/blob/master/peanuts-taxonomy.xml. -->
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="https://raw.githubusercontent.com/briancroxall/peanuts-taxonomy/master/peanuts-taxonomy.xml">
+                    <xi:fallback>
+                        <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include> 
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    <!-- This points to a copy of the original image. -->
+    <facsimile>
+        <graphic url="https://www.gocomics.com/calvinandhobbes/2020/06/04"/><!-- Update this URL to the proper date. Check to make sure it works. -->
+    </facsimile>
+    
+    <text>
+        <body>
+            <head><emph>Calvin and Hobbes</emph>, <date when="2020-06-04">4 June 2020</date></head><!-- The title of the comic is its date. So change the two dates in this line, keeping them both in the proper format -->
+            <div type="panelGrp" ana="#s-inside" xml:id="CalvinAndHobbes2020-06-04"><!-- Make sure that the value of this xml:id matches the idno from line 35 above. If there is a setting, weather, activities, or Bechdel test, tag them in the <div> with ana="" -->
+                <cbml:panel n="1" characters="#c-cd #c-calvin"><!-- In each of the four panel blocks, record the characters that appear in the panel.   -->
+                    <note resp="#r-NM" type="panelDesc">Calvin's Dad answers the phone.</note><!-- Put your r-name from the taxonomy (e.g., #r-HJ, #r-DM, #r-AL, #r-KS) as the value of the resp attribute. Give a quick description of what happens in this panel -->
+                    <cbml:balloon type="speech" who="#c-cd">HELLO ?</cbml:balloon>
+                    <cbml:balloon type="speech" who="#c-calvin">HI DAD!</cbml:balloon>
+                </cbml:panel>
+                
+                <cbml:panel n="2" characters="#c-cd #c-calvin">
+                    <note resp="#r-NM" type="panelDesc">Calvin's Dad narrows his eyebrows.</note>
+                    <cbml:balloon type="speech" who="#c-cd">CALVIN, IS THIS IMPORTANT?</cbml:balloon>
+                    <cbml:balloon type="speech" who="#c-calvin">OOPS. WAIT. FORGET I CALLED YOU "DAD," OK? THIS ISN'T CALVIN.</cbml:balloon>
+                </cbml:panel>
+                
+                <cbml:panel n="3" characters="#c-cd #c-calvin">
+                    <note resp="#r-NM" type="panelDesc">Calvin's Dad sitting at his desk talking into his work phone.</note>
+                    <cbml:balloon type="speech" who="#c-cd">CALVIN, I'VE GOT WORK TO DO. I'LL SEE YOU WHEN I GET HOME, OK? GOODBYE.</cbml:balloon>
+                    <cbml:balloon type="speech" who="#c-calvin">WAIT! DO YOU HAVE ANY CRIMES TO REPORT?</cbml:balloon>
+                </cbml:panel>
+                
+                <cbml:panel n="4" characters="#c-calvin">
+                    <note resp="#r-NM" type="panelDesc">Calvin, standing on a stool and wearing a homemade superhero mask, hangs up the phone.</note>
+                    <docDate>6-4</docDate><!-- Include the date as written in the comic. Move to a different panel if needed. Move it above the signature if need be. -->
+                    <docAuthor>Watterson</docAuthor><!-- Include Schulz's signature. If rendered differently, encode with a <hi rend=""> element. Move this to a different panel if need be. -->
+                </cbml:panel>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
