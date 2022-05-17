@@ -1,0 +1,82 @@
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Captain Joseph Alger Gravestone</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>North Burial Ground, Rhode Island, United States</repository>
+                        <idno>02507</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Funerary Inscription is carved on a <material>slate</material> <objectType>gravestone</objectType>.  </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Text is across 8 lines, centered on the stone below a winged cherub head.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> Text is mostly lower case, with exception of name, which is in all caps. 
+                                <height atLeast=".5" atMost="1" unit="inch"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>North Burial Ground, Rhode Island, United States</origPlace>
+                            <origDate>1794</origDate>
+                        </origin>
+                        <provenance type="found"> North Burial Ground, Rhode Island, United States
+                        </provenance>
+                        <provenance type="observed">in situ
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="http://rihistoriccemeteries.org/newgravedetails.aspx?ID=213337"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Sacred to the Memory
+                    of
+                    Capt. JOSEPH ALGER,
+                    who departed this Life
+                    June 21<hi rend="superscript">st</hi> 1794:
+                    Aged 25 Years,
+                    11 Months &amp;
+                    6 Days.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>n/a</p>
+            </div>
+            <div type="translation">
+                <p>n/a</p>
+            </div>
+            <div type="commentary">
+                <p>n/a</p>
+            </div>
+            <div type="bibliography">
+                <p>“Joseph Alger - Person Details.” n.d. Rhode Island Historic Cemeteries. Accessed May 16, 2022. http://rihistoriccemeteries.org/newgravedetails.aspx?ID=213337.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

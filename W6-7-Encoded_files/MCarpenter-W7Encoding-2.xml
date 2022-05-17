@@ -1,0 +1,95 @@
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.stoa.org/epidoc/schema/9.1/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:space="preserve" xml:lang="en"
+ xml:base="ex-epidoctemplate.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publius Oppius, Roman Soldier</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>n/a</repository>
+                        <idno>in/a</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Carved pinkish <material>stone</material> <objectType>funerary stele</objectType>. A large chunk of the upper right corner is broken off, obscuring some of the letters.
+                                    <dimensions unit="cm">
+                                        <height>50</height>
+                                        <width>25</width>
+                                    </dimensions></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Text makes up 10 rows on a rectangle field with a frame.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Letters are in all-caps, of a fairly uniform size. Approximately <height>2 cm</height> tall.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin> <!-- I'm making this stuff up since I don't actually know -->
+                            <origPlace>Rome, Italy</origPlace>
+                            <origDate>50 CE</origDate>
+                        </origin>
+                        <provenance type="found"> Found in the Roman Acropolis in May 1974
+                        </provenance>
+                        <provenance type="observed">Now located in Smithsonian Museum
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="photograph of text or monument"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>	Pub<supplied reason="lost">lius Oppius filius</supplied>
+	Camilia <gap reason="lost" quantity="3" unit="character"/>
+ 	CIO Rave<supplied reason="lost">nna</supplied>
+	miles legionis <num value="5">V</num>
+	<expan>Mac<ex>edonicae</ex></expan>, optio,
+	vixit annos
+	<num value="30">XXX</num>, militavit annos <num value="9">VIIII</num>.
+	<expan>H<ex>ic</ex> s<ex>itus</ex> e<ex>st</ex>.</expan>
+	<expan>H<ex>eres</ex> f<ex>ecit</ex></expan>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>n/a</p>
+            </div>
+            <div type="translation">
+                <p> P(ublius) Oppi[us, son of...],
+ 	of (the tribe of) Camilia,
+	...cio, of Ravenna,
+	soldier of the Legio V
+	Macedonica, (of the rank of) optio,
+	lived
+	30 years, served in the army nine years
+ 	(and) is buried here.
+	(His) heir made (this tombstone). 
+</p>
+            </div>
+            <div type="commentary">
+                <p>n/a</p>
+            </div>
+            <div type="bibliography">
+                <p>n/a</p>
+            </div>
+        </body>
+    </text>
+</TEI>
