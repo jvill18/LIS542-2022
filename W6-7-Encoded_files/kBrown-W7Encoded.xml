@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://livingstoneonline.github.io/LEAP-ODD/leap.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="http://livingstoneonline.github.io/LEAP-XSLT/transcription.xsl" type="text/xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="liv_000521">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter to Hamilton M. Dyke</title>
+                <title type="alternative">Letter to Hamilton M. Dyke, 24 February 1843</title>
+                <author>David Livingstone</author>
+                <principal>Adrian S. Wisnicki</principal>
+                <principal>Megan Ward</principal>
+                <respStmt xml:id="EM">
+                    <name>E. Alexander Munson</name>
+                    <resp>Transcription</resp>
+                    <resp>Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="AW">
+                    <name>Adrian S. Wisnicki</name>
+                    <resp>Editorial Decisions</resp>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="MB">
+                    <name>Mary Borgo</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="KS">
+                    <name>Kate Simpson</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                </respStmt>
+                <respStmt xml:id="MR">
+                    <name>Matthew Rubery</name>
+                    <resp>Transcription</resp>
+                    <resp>TEI Encoding</resp>
+                </respStmt>               
+            </titleStmt>	
+            <publicationStmt>
+                <authority>Livingstone Online</authority>
+                <publisher>University of Maryland Libraries</publisher>
+                <pubPlace>College Park, MD, USA</pubPlace>
+                <date>2022</date>
+                <idno type="LEAP-ID">liv_00521</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>South Africa</country>
+                        <settlement>Grahamstown</settlement>
+                        <repository>Cory Library for Historical Research</repository>
+                        <idno type="shelfmark"></idno>
+                        <altIdentifier>
+                            <idno type="ccnumber">Letters, 0066</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="U"><label>Unknown Hand</label> This hand is unknown
+                                but thought not David Livingstone's.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl type="sourceMetadata">
+                    <title type="alternative">Letter to Hamilton M. Dyke, 24 February 1843</title><!-- Change -->
+                    <author xml:id="DL">David Livingstone</author>
+                    <date type="composition" when="1856-03-02">24 February 1843</date><!-- Change -->
+                    <placeName type="compositionPlace">Motito</placeName><!-- Change. Where DL composed. -->
+                    <persName type="addressee">Hamilton M. Dyke</persName><!-- Change. Person to whom DL wrote. -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <!-- For language abbreviations, see https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry --> 
+                <!-- English should be first, then add all other languages in alphabetical order. -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <!-- Change @when, @who, and work description below. -->
+            <!-- Note that @who initials are taken from <respStmt> above -->
+            <!-- Add new <change> elements below as needed. -->
+            <!-- Note that the most recent <change> should always be placed first, at the top -->
+            <change when="2022" who="#AW">Transcription and TEI encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div>
+                
+                <!-- Start each page with a <pb> formatted as below and indented as below -->               
+                <pb facs="liv_000521_0001" n="0001"/><!-- Change both @facs and @n -->
+                
+                <lb/><p><!-- Begin transcribed text here --></p>
+                
+                <!-- More transcribed text, etc. -->
+                
+            </div>
+        </body>
+    </text>
+    
+</TEI>
