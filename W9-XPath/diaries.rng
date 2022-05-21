@@ -116,6 +116,11 @@
 
   <define name="name-element">
     <element name="name">
+      <optional>
+        <attribute name="role">
+        <text/>
+      </attribute>
+      </optional>
       <text/>
     </element>
   </define>
