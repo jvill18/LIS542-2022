@@ -29,7 +29,7 @@
                 <title>
                     <xsl:value-of select="/d:journal/d:metadata/d:sourceInfo/d:title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/emylonas/LIS542-2022/main/W9-XSLT/XSLT-source/diaries.css"/>
+                <link rel="stylesheet" type="text/css" href="diaries.css"/>
             </head>
 
             <body>
