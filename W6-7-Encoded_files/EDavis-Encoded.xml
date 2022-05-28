@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://briancroxall.net/w20dh/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>DC Comics Bombshells 2015-08-12 (digital transcription)</title>
+                <!-- Not a public domain comic, but per Walsh, "Certainly there is a great deal more... in the public 
+                    domain or for which permissions may be secured, and nothing prevents a scholar from applying 
+                    CBML markup to any text as part of a strategy for reading, interpretation, and analysis. 
+                    The end goal of markup is not and should not always be publication of a digital surrogate. The
+                    encoding of a text may be a rigorous intellectual activity that has great value as process, not just as product.
+                Also, wrote one of my theses on WW, and I was interested to see how it would play out being encoded!-->
+                <respStmt>
+                    <resp>encoder</resp>
+                    <persName ref="#r-ED">Elle Davis</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>oversight</resp>
+                    <persName ref="https://orcid.org/0000-0001-5602-6830">Brian Croxall</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt> 
+                <publisher>
+                    <orgName ref="https://briancroxall.net/w22dh">Digital Humanities 315, Winter 2022</orgName>
+                </publisher>
+                <availability status="restricted">
+                    <!-- Still being sold & copyright issues prevent free distribution. -->
+                    <licence>
+                        This work is licensed under a Creative Commons Attribution 4.0 International License. <ref target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+                        <p>Please acknowledge Digital Humanities 315, Winter 2020-2022 when re-using or re-publishing.</p>
+                    </licence>
+                </availability>
+                <idno type="local">DCComicsBombshells2015-08-12</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl><title level="a">DC Comics Bombshells 2015-08-12</title> In <author ref="https://viaf.org/viaf/311491924/">Marguerite Bennett</author>, <title>DC Comics Bombshells: Enlisted: Part One</title><publisher>DC Comics</publisher>, <date>2015</date>.</bibl>
+            </sourceDesc>   
+        </fileDesc>
+        
+        <!-- I used the taxonomy 99% of the time but modified for clarity, since I'm using different characters & speech dynamics. -->
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="https://raw.githubusercontent.com/briancroxall/peanuts-taxonomy/master/peanuts-taxonomy.xml">
+                    <xi:fallback>
+                        <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include> 
+            </classDecl>
+        </encodingDesc>
+        
+ 
+        <revisionDesc>
+            <change who="#r-EM" when="2020-01-27">Made template</change>
+            <change who="#r-BC" when="2020-02-05">Updated template</change>
+            <change who="#r-BC" when="2020-02-07">Updated template</change>
+            <change who="#r-BC" when="2020-02-10">Updated template</change>
+            <change who="#r-BC" when="2020-02-13">Updated template</change>
+            <change who="#r-BC" when="2020-02-18">Updated template</change>
+            <change who="#r-BC" when="2021-02-08">Updated template</change>
+            <change who="#r-BC" when="2021-02-18">Updated template</change>
+            <change who="#r-BC" when="2022-02-10">Updated template</change>
+            <change who="#r-JO" when="2022-03-10">Initial encoding</change>
+            <change who="#r-ED" when="2022-05-27">Initial encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    
+    <facsimile>
+        <graphic url="https://ibb.co/1GDpz3H"/><!-- Link to a photo of the page I'm working with hosted online. -->
+    </facsimile>
+    
+    <text>
+        <body>
+            
+            <head><emph>DC Comics Bombshells: Enlisted: Part One</emph>, <date when="2015-08-12">12 August 2015</date></head>
+            
+            <div type="panelGrp" ana="#s-beach s-warzone" xml:id="DCComicsBombshells2015-08-12"><!-- Setting: shores of Themyscira after a WWII dogfight occurs overhead. -->
+                
+                <cbml:panel n="1" characters="#c-wonder-woman #c-steve-trevor #c-amazon-1 #c-amazon-2 #c-amazon-3"><!-- Made up, since Wonder Woman and Steve Trevor aren't in the Peanuts taxonomy.   -->
+                    <note resp="#r-ED" type="panelDesc">Three Amazons and Wonder Woman stare suspiciously at Steve Trevor, who they just dragged out of a plane crash at sea.</note>
+                    <cbml:balloon type="speech" who="#c-steve-trevor">TELL <lb/>YOU...</cbml:balloon>
+                    <cbml:balloon type="speech" who="#c-amazon-3"><sound>HE IS <lb/>DELIRIOUS WITH THE <lb/>SUN AND THE SEA, <lb/>PRINCESS.</sound></cbml:balloon>
+                </cbml:panel>
+                
+                <cbml:panel n="2" characters="#c-wonder-woman #c-steve-trevor #c-amazon-1 #c-amazon-2" ana="#tr-m2m">
+                    <note resp="#r-ED" type="panelDesc">The focus shifts to Steve Trevor, who is visibly wounded and disoriented.</note>
+                    <cbml:balloon type="speech" who="#c-amazon-2">HE MAY <lb/>HAVE SWALLOWED <lb/>SALT WATER--</cbml:balloon>
+                    <cbml:balloon type="speech" who="#c-wonder-woman">BRING A <lb/>LITTER. HE IS <hi rend="bold"><hi rend="italic">MY</hi></hi> <lb/>PRISONER.</cbml:balloon>
+                </cbml:panel>
+                
+                <cbml:panel n="2" characters="#c-wonder-woman #c-steve-trevor" ana="#tr-act2act">
+                    <note resp="#r-ED" type="panelDesc">Steve Trevor is weak. Wonder Woman wraps an arm around his shoulders.</note>
+                    <cbml:balloon type="speech" who="#c-steve-trevor"><hi rend="italic">...PRISONER... <lb/>STEVE TREVOR. <lb/>...S-STEPHEN TREVOR. <lb/> D.O.B. 5/9/1909... <lb/>INTELLIGENCE OFFICER. <lb/>MASTER SERGEANT. <lb/>UNITED STATES ARMY AIR FORCE.</hi></cbml:balloon>
+                </cbml:panel>
+                
+                <cbml:panel n="4" characters="#c-wonder-woman #c-steve-trevor #c-unknown" ana="#tr-act2act">
+                    <note resp="#r-ED" type="panelDesc">Steve Trevor collapses in Wonder Woman's arms, losing consciousness. A square caption denotes off-page speech; the comic transitions to an unknown character elsewhere.</note>
+                    <cbml:balloon type="speech" who="#c-steve-trevor"><hi rend="italic">...MY NAME <lb/>IS...STEVE <lb/>TREVOR...</hi></cbml:balloon>
+                    <cbml:balloon type="speech" who="#c-wonder-woman">STEVE... <lb/>TREVOR.</cbml:balloon>
+                    <cbml:caption type="speech" who="#c-unknown"><hi rend="italic">MUSIC... <lb/> I CAN HEAR MUSIC.</hi></cbml:caption>
+                    <!-- chose caption and speech because this text is in the square box that typically denotes third-person exposition or a mental narrative-->
+                </cbml:panel>
+                
+            </div>
+        </body>
+    </text>
+</TEI>
