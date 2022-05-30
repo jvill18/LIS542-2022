@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe xml:id = "Butter Beans, Paprika and Piquillo Peppers (2)">
+<intro>These beans are great in salads. Let the mix cool and then toss through a
+selection of salad leaves and herbs. Perk up the leaves with a little olive oil
+and vinegar and some crispy lavash on top. </intro>
+<ingredients>Ingredients
+<size>Serves 4</size>
+<l n = "1"><ingredient quantity = "3" name = "red onions, diced" /> </l>
+<l n = "2"><ingredient quantity = "125 (about ½)" unit = "ml (cup)" name = "extra-virgin olive oil, divided"/></l>
+<l n = "3"><ingredient quantity = "4" name = "garlic cloves, finely sliced"/></l>
+<l n = "4"><ingredient quantity = "1" unit = "Tbsp." name = "dried chile flakes (preferably pul biber)"/></l>
+<l n = "5"><ingredient quantity = "1 1⁄2" unit = "Tbsp." name = "sweet smoked paprika"/></l>
+<l n = "6"><ingredient quantity = "1" unit = "Tbsp." name = "tomato purée"/></l>
+<l n = "7"><ingredient quantity = "2" unit = "14-oz. cans" name = "butter beans or lima beans, drained and rinsed"/></l>
+<l n = "8"><ingredient quantity = "5" unit = "Tbsp." name = "sherry vinegar"/></l>
+<l n = "9"><ingredient quantity = "300 (10 1/2)" unit = "g (oz.)" name = "jarred piquillo peppers, rinsed and sliced"/></l>
+<l n = "10"><ingredient name = "Kosher salt"/></l>
+</ingredients>
+<directions>
+<step>Step 1
+In a wide-based pan over a medium heat, caramelize the red onions in <ingredient quantity = "5" unit = "Tbsp." name = "of the olive oil"/> for <time quantity = "15" unit = "minutes"/> or until they turn golden and soft. Add a little fine salt, the garlic and spices and continue to cook for <time quantity = "2–3" unit = "minutes."/> Add the tomato purée and cook for another minute.</step>
+<step>Step 2
+Add the beans and sherry vinegar and reduce the liquid by half over a
+medium heat. Turn the heat off. Add the piquillo peppers and the remaining
+olive oil and season with salt to serve.</step></directions>
+<source>From Three: Acid, Texture, Contrast by Selin Kiazim. Copyright © December
+2021 by Selin Kiazim. Excerpted by permission of Quadrille. Buy the book
+from Amazon or Bookshop.</source>
+</recipe>
