@@ -125,7 +125,7 @@
     </xsl:template>
     
     <xsl:template match="d:cite">
-        <a href="{@ref}"><xsl:apply-templates/></a>
+       <xsl:apply-templates/>
     </xsl:template>
     
 
