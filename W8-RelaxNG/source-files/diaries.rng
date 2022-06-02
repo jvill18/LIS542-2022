@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<grammar   xmlns="http://relaxng.org/ns/structure/1.0"
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
 
   <!-- This is a schema for entries in diaries and journals.  -->
@@ -11,7 +11,7 @@
   -->
   <start>
 
-    <element name="journal"  xmlns="http://relaxng.org/ns/structure/1.0">
+    <element name="journal" xmlns="http://relaxng.org/ns/structure/1.0">
 
       <ref name="metadata-element"/>
 
@@ -40,7 +40,10 @@
           <empty/>
         </element>
         <element name="author">
-          <text/>
+          <choice>
+            <ref name="name-element"/>
+            <text/>
+          </choice>
         </element>
         <element name="publisher">
           <empty/>
@@ -48,17 +51,17 @@
       </element>
 
       <element name="revisions">
-
-        <element name="change">
-          <attribute name="when">
-            <data type="date"/>
-          </attribute>
-          <attribute name="who"/>
-          <text/>
-        </element>
-
+        <oneOrMore>
+          <element name="change">
+            <attribute name="when">
+              <data type="date"/>
+            </attribute>
+            <attribute name="who"/>
+            <text/>
+          </element>
+        </oneOrMore>
       </element>
-      
+
     </element>
   </define>
 
@@ -67,32 +70,33 @@
   <define name="entry-element">
     <element name="entry">
       <attribute>
-        <name ns="http://www.w3.org/XML/1998/namespace">id</name>  <!-- This uses the XML namespace as it is defining the xml:id attribute which is defined for all elements in XML itself -->
+        <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+        <!-- This uses the XML namespace as it is defining the xml:id attribute which is defined for all elements in XML itself -->
         <data type="NCName"/>
       </attribute>
-      
+
       <oneOrMore>
         <choice>
           <text/>
-          
+
           <ref name="pb-element"/>
-          
+
           <element name="date">
             <attribute name="when">
               <data type="date"/>
             </attribute>
             <text/>
           </element>
-          
-         <ref name="p-element"/>
+
+          <ref name="p-element"/>
         </choice>
       </oneOrMore>
-      
+
     </element>
   </define>
-  
+
   <!-- P and its contents -->
-  
+
   <define name="p-element">
     <element name="p">
       <oneOrMore>
@@ -101,6 +105,7 @@
           <ref name="pb-element"/>
           <ref name="alternates-element"/>
           <ref name="name-element"/>
+          <ref name="deletion-element"></ref>
           <element name="place">
             <text/>
           </element>
@@ -111,16 +116,23 @@
 
   <define name="name-element">
     <element name="name">
+      <attribute name="role"/>
       <text/>
     </element>
   </define>
-  
+
   <!-- PB Definition of the pagebreak element. It is an empty element with a @n attribute to indicate the page number.  -->
   <define name="pb-element">
     <element name="pb">
       <attribute name="n">
         <data type="NCName"/>
       </attribute>
+    </element>
+  </define>
+
+  <define name="deletion-element">
+    <element name="deletion">
+      <text/>
     </element>
   </define>
 

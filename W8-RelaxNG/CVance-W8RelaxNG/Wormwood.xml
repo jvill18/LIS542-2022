@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- https://publications.newberry.org/transcribe/#/item/35/page/7942 
     https://publications.newberry.org/transcribe/#/item/35/page/7943  -->
-<?xml-model href="file:/C:/Users/caliv_000/Desktop/diaries.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="diaries.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <journal>
     <metadata>
         <sourceInfo>

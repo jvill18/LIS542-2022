@@ -150,12 +150,12 @@
         </group>
 
         <group>
-          <element name="sic">
+          <interleave><element name="sic">
             <text/>
           </element>
           <element name="corr">
             <text/>
-          </element>
+          </element></interleave>
         </group>
 
       </choice>

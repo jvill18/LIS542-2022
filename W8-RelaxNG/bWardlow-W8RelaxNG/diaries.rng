@@ -141,12 +141,12 @@
       <choice>
 
         <group>
-          <element name="abbr">
+          <interleave><element name="abbr">
             <text/>
           </element>
           <element name="expan">
             <text/>
-          </element>
+          </element></interleave>
         </group>
 
         <group>

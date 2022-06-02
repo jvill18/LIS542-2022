@@ -93,7 +93,7 @@
     </xsl:template>
 
     <xsl:template match="d:p"> <!-- Match <entry>, surround each one with an HTML <p> element and keep going  -->
-        <p>
+        <p> [<xsl:value-of select="@n"/>] <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -123,6 +123,11 @@
     <xsl:template match="d:alternates"> <!-- Match <alternate> and keep going. -->
         <xsl:apply-templates/>
     </xsl:template>
+    
+    <xsl:template match="d:cite">
+        <a href="{@ref}"><xsl:apply-templates/></a>
+    </xsl:template>
+    
 
     <xsl:template match="d:original | d:abbr"> <!-- Enclosing in HTML span element with class attribute to allow js to hide and show orig/new spelling. -->
         <span class="original"><xsl:apply-templates/></span>

@@ -49,9 +49,9 @@
                             <xsl:for-each select="//d:entries//d:name">
                                 <li>
                                     <xsl:value-of select="."/>  <!-- the . here means to use the content of the selected element; in this case, <name> -->
-                                    <xsl:text> (</xsl:text>
+                                   <xsl:if test="@role">  (
                                     <xsl:value-of select="@role"/>
-                                    <xsl:text>)</xsl:text>
+                                    <xsl:text>)</xsl:text></xsl:if>
                                 </li>
                             </xsl:for-each>
                         </ol>

@@ -99,11 +99,9 @@
                     <h1>List of Roles</h1>
                     <p>
                         <ol>
-                            <xsl:for-each select="//d:entries//d:name">
+                            <xsl:for-each select="//d:entries//d:name/@role">
                                 <li>
-                                    <xsl:if test="string-length(@role) > 1">
-                                    <xsl:value-of select="@role"/>  <!-- the . here means to use the content of the selected element; in this case, <name> -->
-                                    </xsl:if>
+                                    <xsl:value-of select="."/>  <!-- the . here means to use the content of the selected element; in this case, <name> -->
                                 </li>
                             </xsl:for-each>
                         </ol>
